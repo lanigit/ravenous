@@ -21,9 +21,9 @@ function BusinessList() {
     const restVals = restaurants.map((val) => {
        return (
             <div>
-                <li>{val.name}</li>
-                <li>{val.address}</li>
-                <li>{val.ratings}</li>
+                <li>Restuarant Name:<br/> &nbsp;&nbsp; <strong>{val.name}</strong></li>
+                <li>Address:<br/> &nbsp;&nbsp; <strong>{val.address}</strong></li>
+                <li>Avg Ratings:<br/> &nbsp;&nbsp; <strong>{val.ratings}</strong></li>
             </div>
         )
     });

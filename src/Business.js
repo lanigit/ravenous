@@ -18,7 +18,8 @@ function Business() {
     return ( 
     <div>
         <header><h1>Restuarants</h1></header>
-        <ul><BusinessList /></ul>
+        <p>Current list of restaurants</p>
+        <ul id='left-align'><BusinessList /></ul>
     </div>
     )
  };
